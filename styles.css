@@ -1,1 +1,25 @@
 /* your code */
+table {
+  border-collapse: collapse; /* Collapse border spacing */
+  width: 100%; /* Make table occupy full width */
+}
+
+/* Style table headers */
+th {
+  background-color: #blue; /* Background color */
+  border: 5px solid #dddddd; /* Border */
+  padding: 8px; /* Padding */
+  text-align: middle; /* Text alignment */
+}
+
+/* Style table rows */
+td {
+  border: 1px solid #dddddd; /* Border */
+  padding: 8px; /* Padding */
+  text-align: middle; /* Text alignment */
+}
+
+/* Style alternating rows */
+tr:nth-child(even) {
+  background-color: #ffffff; /* Background color */
+}
